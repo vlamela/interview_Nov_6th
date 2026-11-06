@@ -33,9 +33,6 @@ and runnable, but that does not imply it is correct. No test framework is includ
 in this candidate project. You need no cloud accounts, Docker, HTTP server,
 database server, or parent repository files. Complete setup before the interview.
 
-Open this directory as its own VS Code workspace and select its `.venv` Python
-interpreter. Otherwise editor checks may use a parent project's dependencies.
-
 Pydantic models are supplied, not a framework-knowledge test. Construct them with
 named arguments, read their attributes, and use `Model.model_validate(dict(row))`
 when mapping SQL rows. Validation errors inherit from `ValueError`. Ask for a
